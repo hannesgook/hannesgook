@@ -16,7 +16,7 @@ A complete drone control system built entirely from first principles without fli
 - Full wireless chain: Flutter app -> BLE -> Raspberry Pi -> LoRa -> Arduino flight controller (60 ms latency)
 - Custom CAD airframe designed in Fusion 360 and 3D-printed (PLA plastic)
 - Modified RadioHead library at source level for real-time motor control requirements
-- **Qualified for the semi-final of Sweden's national science competition for young researchers (February 2026, Lund)**
+- :medal_sports: **Qualified for the national final of Unga Forskare - Sweden's national science competition for young researchers**
 
 *"The project stands out through a very high level of technical ambition. The custom-built flight controller, the distributed communication chain, and the well-designed failsafe solution demonstrate a deep understanding of real-time systems, control theory, and system safety. The methodology is exemplarily clear and reproducible."* - Translated research jury feedback, Unga Forskare 2026
 
