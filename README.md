@@ -1,9 +1,8 @@
 # Hannes Göök
-
 I build realtime control systems from first principles.
 Embedded firmware, wireless stacks, Unity simulators. Programming for 7+ years, professionally since 2021.
 
-Unga Forskare 2026 national finalist
+🏆 Unga Forskare 2026 national finalist
 
 My personal projects include embedded C++, Unity simulators and multiplayer-solutions, full-stack RC systems, synthetic data generation in Unity.
 
@@ -11,23 +10,24 @@ Currently in my final year at Hulebäcksgymnasiet (Teknikprogrammet), a Swedish 
 
 ## Projects
 
-### Quadcopter BLE-LoRa Controller
-A complete drone control system built entirely from first principles without flight control frameworks. Achieved stable hover several meters above ground and several controlled landings.
-
-- Custom Arduino flight controller with cascaded PID stabilization and Madgwick IMU filter (~250 Hz loop frequency)
-- Full wireless chain: Flutter app -> BLE -> Raspberry Pi -> LoRa -> Arduino flight controller (60 ms latency)
-- Custom CAD airframe designed in Fusion 360 and 3D-printed (PLA plastic)
-- Modified RadioHead library at source level for real-time motor control requirements
-- :medal_sports: **Qualified for the national final of Unga Forskare - Sweden's national science competition for young researchers**
+### PidraQRL
+A quadrotor built entirely from scratch with a live SAC reinforcement learning agent tuning roll-controller gains in real time and a Unity HDRP digital twin mirroring live telemetry.
+- Custom ESP32 flight controller with cascaded PID, Madgwick AHRS, and biquad filters (250 Hz loop)
+- Full wireless chain: Flutter app -> BLE -> Raspberry Pi -> LoRa -> ESP32 (+ direct BLE for RL)
+- SAC RL agent tuning PID gains in real time on the physical drone, no sim-to-real transfer
+- Custom single-axis test rig for safe RL training with live propellers
+- Unity HDRP digital twin with Fusion 360 models, mirroring live IMU telemetry over UDP
+- **Qualified for the national final of Unga Forskare** (Sweden's Young Researchers national championship), 2026
 
 *"The project stands out through a very high level of technical ambition. The custom-built flight controller, the distributed communication chain, and the well-designed failsafe solution demonstrate a deep understanding of real-time systems, control theory, and system safety. The methodology is exemplarily clear and reproducible."* - Translated research jury feedback, Unga Forskare 2026
 
-**📰 Press (Swedish):** [Hulebäcksgymnasiet](https://hulebacksgymnasiet.harryda.se/nyhetsarkiv/2026-02-27-tavlar-med-egenbyggd-dronare), [Video](https://youtu.be/nFjXQu7kyrs?si=LQH_s4t5zsvco7_y) *(I'm on the far left)*
+**📰 Press (Swedish):** [Hulebäcksgymnasiet news](https://hulebacksgymnasiet.harryda.se/nyhetsarkiv/2026-02-27-tavlar-med-egenbyggd-dronare), [School video](https://youtu.be/nFjXQu7kyrs?si=i-YoVVQbaT2_d_f_), [Demo video](https://youtu.be/TsKfvWoOu-4?si=t9hcCkoqaQfQ_xi9)
+🌐 [Digital exhibition](https://events.projectboard.world/ungaforskare2026/project/222684)
 
-**Drone & Pi repo:** [quadcopter-ble-lora-controller](https://github.com/hannesgook/quadcopter-ble-lora-controller)
-**App repo:** [PidraQ](https://github.com/hannesgook/pidraq)
-  
-![Full system setup](https://raw.githubusercontent.com/hannesgook/quadcopter-ble-lora-controller/main/images/full_system_setup.jpg)
+**Repo:** [PidraQRL](https://github.com/hannesgook/PidraQRL)
+
+![Drone](https://raw.githubusercontent.com/hannesgook/PidraQRL/main/docs/drone_hero.jpg)
+![System setup](https://raw.githubusercontent.com/hannesgook/PidraQRL/main/docs/system_setup.jpg)
 
 ## Work Experience
 
