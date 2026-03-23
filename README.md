@@ -1,6 +1,6 @@
 # Hannes Göök
 I build realtime control systems from first principles.
-Embedded firmware, wireless stacks, Unity simulators. Programming for 7+ years, professionally since 2021.
+Embedded firmware, wireless stacks, reinforcement learning, Unity simulators. Programming for 7+ years, professionally since 2021.
 
 🏆 Unga Forskare 2026 national finalist
 
@@ -49,6 +49,6 @@ Five paid internships starting at age 15 across four years building internal too
 
 **App:** Flutter (dart), React, Python
 
-**AI:** YOLO, Torch, dataset generation
+**AI:** Reinforcement learning, YOLO, Torch, dataset generation
 
 **Languages:** Swedish (native), English (fluent), French (basic)
