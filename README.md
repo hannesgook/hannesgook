@@ -2,7 +2,7 @@
 I build realtime control systems from first principles.
 Embedded firmware, wireless stacks, reinforcement learning, Unity simulators. Programming for 7+ years, professionally since 2021.
 
-🏆 Unga Forskare 2026 national finalist
+🏆 Winner of the Yale SEA Most Outstanding STEM Exhibit - Unga Forskare 2026 National Final
 
 My personal projects include embedded C++, Unity simulators and multiplayer-solutions, full-stack RC systems, synthetic data generation in Unity.
 
@@ -17,7 +17,7 @@ A quadrotor built entirely from scratch with a live SAC reinforcement learning a
 - SAC RL agent tuning PID gains in real time on the physical drone, no sim-to-real transfer
 - Custom single-axis test rig for safe RL training with live propellers
 - Unity HDRP digital twin with Fusion 360 models, mirroring live IMU telemetry over UDP
-- **Qualified for the national final of Unga Forskare** (Sweden's Young Researchers national championship), 2026
+- **Winner of the Yale SEA Most Outstanding STEM Exhibit** - Unga Forskare 2026 National Final (Sweden's Young Researchers national championship)
 
 *"The project stands out through a very high level of technical ambition. The custom-built flight controller, the distributed communication chain, and the well-designed failsafe solution demonstrate a deep understanding of real-time systems, control theory, and system safety. The methodology is exemplarily clear and reproducible."* - Translated research jury feedback, Unga Forskare 2026
 
