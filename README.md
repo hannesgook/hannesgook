@@ -36,6 +36,21 @@ A quadrotor built entirely from scratch with a live SAC reinforcement learning a
 ![Drone](https://raw.githubusercontent.com/hannesgook/PidraQRL/main/docs/drone_hero.jpg)
 ![System setup](https://raw.githubusercontent.com/hannesgook/PidraQRL/main/docs/system_setup.jpg)
 
+---
+
+### GDForge
+Generates a playable Geometry Dash level from any song using beat detection and physics simulation.
+- Analyzes audio to detect beats and uses them to drive level generation
+- Cube mode simulates ballistic arc physics reverse-engineered from observed in-game behavior
+- Wave mode generates a diagonal path with rails and ramps sampled by arc length
+- Reverse-engineered the `.gmd` format used by the GDShare mod to write valid level files importable directly into GD
+- PyQt GUI with synchronized audio waveform and level geometry preview
+
+**Repo:** [GDForge](https://github.com/hannesgook/gdforge)
+
+![GDForge GUI](https://raw.githubusercontent.com/hannesgook/gdforge/main/docs/gui.png)
+![GDForge Result](https://raw.githubusercontent.com/hannesgook/gdforge/main/docs/result_cube.png)
+
 ## Work Experience
 
 **Programmer** - CPAC Systems - Recurring, 2021-2025
