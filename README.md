@@ -29,9 +29,9 @@ A quadrotor built entirely from scratch with a live SAC reinforcement learning a
 >
 >*"In this project, the team members refused to take any shortcuts whatsoever. By rejecting ready-made frameworks and instead building everything from scratch, from communication to software, this work has demonstrated a technical dedication beyond the ordinary."* - Winners catalogue, Unga Forskare 2026 (translated) - [Link (Swedish)](https://ungaforskare.se/wp-content/uploads/2026/03/alla-vinnare-uuf-2026-1.pdf?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQz6G1leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAad5GfXVKqrb3qj2pK-MDdI4lCDxwGsqRKR8YA2ytLWBNzox-uJBilDC0D45dw_aem__15jBvfqmiITrkEP-tInBQ)
 >
->**📰 Press:** [Hulebäcksgymnasiet news (Swedish)](https://hulebacksgymnasiet.harryda.se/nyhetsarkiv/2026-02-27-tavlar-med-egenbyggd-dronare), [School video (Swedish)](https://youtu.be/nFjXQu7kyrs?si=i-YoVVQbaT2_d_f_)
->
->**Repo:** [PidraQRL](https://github.com/hannesgook/PidraQRL)
+>**📰 Press:** [Hulebäcksgymnasiet news (Swedish)](https://hulebacksgymnasiet.harryda.se/nyhetsarkiv/2026-02-27-tavlar-med-egenbyggd-dronare), [School video (Swedish)](https://youtu.be/nFjXQu7kyrs?si=i-YoVVQbaT2_d_f_), [Local press (Swedish)](https://www.lokalpressen.se/hulebackselever-till-final-i-forskningssm-6.2.6460.2d8ea205e6)
+
+**Repo:** [PidraQRL](https://github.com/hannesgook/PidraQRL)
 
 ![Drone](https://raw.githubusercontent.com/hannesgook/PidraQRL/main/docs/drone_hero.jpg)
 ![System setup](https://raw.githubusercontent.com/hannesgook/PidraQRL/main/docs/system_setup.jpg)
