@@ -53,7 +53,7 @@ Generates a playable Geometry Dash level from any song using beat detection and 
 
 ## Work Experience
 
-**Programmer** - CPAC Systems - Recurring, 2021-2025
+**Software Developer** - CPAC Systems - Recurring, 2021-2025
 
 Five paid internships starting at age 15 across four years building internal tools and simulators in C#, Python, and Unity.
 
