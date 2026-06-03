@@ -19,7 +19,7 @@ A quadrotor built entirely from scratch with a live SAC reinforcement learning a
 - Unity HDRP digital twin with Fusion 360 models, mirroring live IMU telemetry over UDP
 - **Winner of the Yale SEA Most Outstanding STEM Exhibit** - Unga Forskare 2026 National Final (Sweden's Young Researchers national championship)
 
->🏅 [Official winners list (Swedish)](https://ungaforskare.se/wp-content/uploads/2026/04/alla-vinnare-uuf-2026.pdf)
+>🏅 [Official winners list (Swedish)](https://ungaforskare.se/wp-content/uploads/2026/04/alla-vinnare-uuf-2026.pdf) (Drone Control System)
 >
 >🗞️ [Winners announcement with photos (LinkedIn) (Swedish)](https://www.linkedin.com/posts/grattis-till-alla-fantastiska-pristagare-ugcPost-7443214290331017216-65qc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAExydk8B2cZze4JlFAEzUhzplSSweQ-0wBE)
 >
