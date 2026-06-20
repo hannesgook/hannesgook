@@ -6,8 +6,6 @@ Embedded firmware, wireless stacks, reinforcement learning, Unity simulators. Pr
 
 My personal projects include embedded C++, Unity simulators and multiplayer-solutions, full-stack RC systems, synthetic data generation in Unity.
 
-Currently in my final year at Hulebäcksgymnasiet (Teknikprogrammet), a Swedish upper-secondary school, graduating 2026.
-
 ## Projects
 
 ### PidraQRL
