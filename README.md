@@ -1,12 +1,29 @@
 # Hannes Göök
 I build realtime control systems from first principles.
-Embedded firmware, wireless stacks, reinforcement learning, Unity simulators. Programming for 7+ years, professionally since 2021.
+Embedded firmware, wireless stacks, reinforcement learning, computer vision, Unity simulators. Programming for 7+ years, professionally since 2021.
 
 🏆 Winner of the Yale SEA Most Outstanding STEM Exhibit - Unga Forskare 2026 National Final
 
-My personal projects include embedded C++, Unity simulators and multiplayer-solutions, full-stack RC systems, synthetic data generation in Unity.
+My personal projects include embedded C++, stereo-vision drones, Unity simulators and multiplayer-solutions, full-stack RC systems, synthetic data generation in Unity.
 
 ## Projects
+
+### KattVis
+A stereo-vision quadcopter built from scratch, flying without GPS or a barometer, using onboard stereo cameras and an IMU instead.
+- Custom ESP32 flight controller with a cascaded PID loop at 250 Hz, running independently of the vision workload
+- Deadcat airframe with a tuned front/rear roll-mix to compensate for the front motors' extra torque leverage
+- Raspberry Pi 5 running an onboard stereo-vision and visual-odometry pipeline (dual OV9281 global-shutter cameras, 12 cm baseline) for GPS-free motion and altitude estimation
+- Custom Flutter ground station with the actual CAD-modeled airframe rendered live, PID tuning, a per-motor test mode, and built-in stereo calibration
+- Prototyped the stereo pipeline in Unity before buying the physical cameras, to prove the approach out first
+- Custom nylon airframe designed in Fusion 360, manufactured and sponsored by PCBWay
+- 10 seconds of controlled flight demonstrated so far; altitude hold functional and being tuned
+
+**Repo:** [KattVis](https://github.com/hannesgook/kattvis)
+
+![KattVis](https://raw.githubusercontent.com/hannesgook/kattvis/main/docs/drone_hero.jpg)
+![Flutter app](https://raw.githubusercontent.com/hannesgook/kattvis/main/docs/flight_mode.jpg)
+
+---
 
 ### PidraQRL
 A quadrotor built entirely from scratch with a live SAC reinforcement learning agent tuning roll-controller gains in real time and a Unity HDRP digital twin mirroring live telemetry.
@@ -66,6 +83,8 @@ Five paid internships starting at age 15 across four years building internal too
 **Embedded systems:** C++, Arduino, PID control, IMU data filtering and handling, Fusion 360
 
 **Simulation & Graphics:** Unity, C#, procedural generation (noise combining), Blender
+
+**Computer Vision:** OpenCV, stereo vision, visual odometry, feature tracking, camera calibration
 
 **App:** Flutter (dart), React, Python
 
