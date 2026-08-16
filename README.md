@@ -53,7 +53,7 @@ A quadrotor built entirely from scratch with a live SAC reinforcement learning a
 
 ---
 
-### GDForge (2026)
+### GDForge (2025-2026)
 Generates a playable Geometry Dash level from any song using beat detection and physics simulation.
 - Analyzes audio to detect beats and uses them to drive level generation
 - Cube mode simulates ballistic arc physics reverse-engineered from observed in-game behavior
