@@ -8,7 +8,7 @@ My personal projects include embedded C++, stereo-vision drones, Unity simulator
 
 ## Projects
 
-### KattVis
+### KattVis (2026-present)
 A stereo-vision quadcopter built from scratch, flying without GPS or a barometer, using onboard stereo cameras and an IMU instead.
 - Custom ESP32 flight controller with a cascaded PID loop at 250 Hz, running independently of the vision workload
 - Deadcat airframe with a tuned front/rear roll-mix to compensate for the front motors' extra torque leverage
@@ -25,7 +25,7 @@ A stereo-vision quadcopter built from scratch, flying without GPS or a barometer
 
 ---
 
-### PidraQRL
+### PidraQRL (2025-2026)
 A quadrotor built entirely from scratch with a live SAC reinforcement learning agent tuning roll-controller gains in real time and a Unity HDRP digital twin mirroring live telemetry.
 - Custom ESP32 flight controller with cascaded PID, Madgwick AHRS, and biquad filters (250 Hz loop)
 - Full wireless chain: Flutter app -> BLE -> Raspberry Pi -> LoRa -> ESP32 (+ direct BLE for RL)
@@ -53,7 +53,7 @@ A quadrotor built entirely from scratch with a live SAC reinforcement learning a
 
 ---
 
-### GDForge
+### GDForge (2026)
 Generates a playable Geometry Dash level from any song using beat detection and physics simulation.
 - Analyzes audio to detect beats and uses them to drive level generation
 - Cube mode simulates ballistic arc physics reverse-engineered from observed in-game behavior
