@@ -1,10 +1,9 @@
 # Hannes Göök
-I build realtime control systems from first principles.
-Embedded firmware, wireless stacks, reinforcement learning, computer vision, Unity simulators. Programming for 7+ years, professionally since 2021.
+I build end-to-end real-time control and machine-learning systems across custom hardware and software: embedded firmware, wireless communication, computer vision, and reinforcement learning. Programming for 7+ years, professionally since 2021.
+
+Recent projects: two from-scratch quadcopters with custom ESP32 flight controllers. KattVis uses onboard stereo vision for GPS-free motion and position estimation, while PidraQRL has a live RL agent tuning PID gains in real time on physical hardware.
 
 🏆 Winner of the Yale SEA Most Outstanding STEM Exhibit - Unga Forskare 2026 National Final
-
-My personal projects include embedded C++, stereo-vision drones, Unity simulators and multiplayer-solutions, full-stack RC systems, synthetic data generation in Unity.
 
 ## Projects
 
