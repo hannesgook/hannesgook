@@ -23,7 +23,7 @@ I build end-to-end **real-time control and machine-learning systems** across cus
 
 Recent projects: two from-scratch quadcopters with custom ESP32 flight controllers. **KattVis** uses onboard stereo vision for GPS-free motion and position estimation, while **PidraQRL** has a live RL agent tuning PID gains in real time on physical hardware.
 
-Winner of the Yale SEA Most Outstanding STEM Exhibit at the Unga Forskare 2026 National Final (Sweden's Young Researchers national championship).
+🏆 **YSEA Award Winner (2026)** – Received the *Most Outstanding STEM Exhibit* at the Unga Forskare National Final (Sweden's Championship for Young Researchers).
 
 ---
 
