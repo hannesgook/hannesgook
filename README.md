@@ -74,7 +74,7 @@ A quadrotor built entirely from scratch with a **live SAC reinforcement learning
 - Custom single-axis test rig for safe RL training with live propellers
 - Unity HDRP digital twin with Fusion 360 models, mirroring live IMU telemetry over UDP
 
-Winner of the Yale SEA Most Outstanding STEM Exhibit at the Unga Forskare 2026 National Final.
+Winner of the YSEA Most Outstanding STEM Exhibit at the Unga Forskare 2026 National Final.
 
 <details>
 <summary><b>What the jury said</b></summary>
