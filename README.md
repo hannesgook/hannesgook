@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Unga_Forskare_2026-Yale_SEA_Most_Outstanding_STEM_Exhibit-FFB800?style=for-the-badge&logo=trophy&logoColor=white" />
+<img src="https://img.shields.io/badge/Unga_Forskare_2026-YSEA_Most_Outstanding_STEM_Exhibit-FFB800?style=for-the-badge&logo=trophy&logoColor=white" />
 <br/>
 <img src="https://img.shields.io/badge/Programming-7%2B_years-8B5CF6?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Professional-since_2021-10B981?style=for-the-badge" />
