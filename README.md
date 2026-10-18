@@ -6,12 +6,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=I+build+real-time+control+systems+from+scratch;Custom+ESP32+flight+controllers;Stereo+vision+and+visual+odometry;Reinforcement+learning+on+real+hardware" alt="Typing SVG" />
 </a>
 
+**Computer Science & Engineering (MSc) student at Chalmers University of Technology**
+
+<a href="https://www.linkedin.com/in/hannesgook/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 <br/>
 
 <img src="https://img.shields.io/badge/Unga_Forskare_2026-YSEA_Most_Outstanding_STEM_Exhibit-FFB800?style=for-the-badge&logo=trophy&logoColor=white" />
-<br/>
-<img src="https://img.shields.io/badge/Programming-7%2B_years-8B5CF6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Professional-since_2021-10B981?style=for-the-badge" />
 
 </div>
 
@@ -19,21 +19,25 @@
 
 ## About me
 
-I build end-to-end **real-time control and machine-learning systems** across custom hardware and software: embedded firmware, wireless communication, computer vision, and reinforcement learning.
+I build end-to-end **real-time control and machine-learning systems** across custom hardware and software: embedded firmware, wireless communication, computer vision, and reinforcement learning. I've been programming for 7+ years, and professionally since 2021, when I started my first internship at 15.
 
-Recent projects: two from-scratch quadcopters with custom ESP32 flight controllers. **KattVis** uses onboard stereo vision for GPS-free motion and position estimation, while **PidraQRL** has a live RL agent tuning PID gains in real time on physical hardware.
+**Currently**
+- 🎓 Starting my MSc in Computer Science and Engineering (Civilingenjör Datateknik) at Chalmers
+- 🚁 Building **KattVis**, a GPS-free stereo-vision quadcopter, and tuning its altitude and position hold
 
-🏆 **YSEA Award Winner (2026)** – Received the *Most Outstanding STEM Exhibit* at the Unga Forskare National Final (Sweden's Championship for Young Researchers).
+**Highlights**
+- 🏆 **YSEA Most Outstanding STEM Exhibit**, Unga Forskare 2026 National Final (Sweden's championship for young researchers), for PidraQRL
+- 🤝 KattVis airframe **sponsored and manufactured by PCBWay**
 
 ---
 
-## Projects
+## Featured projects
 
-### KattVis &nbsp; <sub>2026 to present</sub>
+### KattVis &nbsp; <sub>2026 to present · sponsored by PCBWay</sub>
 
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" /> <img src="https://img.shields.io/badge/Raspberry_Pi_5-A22846?style=flat-square&logo=raspberrypi&logoColor=white" /> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" /> <img src="https://img.shields.io/badge/Fusion_360-F58220?style=flat-square&logo=autodesk&logoColor=white" />
 
-A stereo-vision quadcopter built from scratch, flying **without GPS or a barometer**, using onboard stereo cameras and an IMU instead.
+A stereo-vision quadcopter that estimates its 3D position and motion **without GPS or a barometer**, using two onboard cameras and an IMU.
 
 <table>
   <tr>
@@ -44,22 +48,22 @@ A stereo-vision quadcopter built from scratch, flying **without GPS or a baromet
 
 - Custom ESP32 flight controller with a cascaded PID loop at **250 Hz**, running independently of the vision workload
 - Deadcat airframe with a tuned front/rear roll-mix to compensate for the front motors' extra torque leverage
-- Raspberry Pi 5 running an onboard stereo-vision and visual-odometry pipeline (dual OV9281 global-shutter cameras, 12 cm baseline) for GPS-free motion and altitude estimation
+- Raspberry Pi 5 running an onboard stereo-vision and visual-odometry pipeline (dual OV9281 global-shutter cameras, 12 cm baseline)
 - Custom Flutter ground station with the CAD-modeled airframe rendered live, PID tuning, a per-motor test mode, and built-in stereo calibration
-- Prototyped the stereo pipeline in Unity before buying the physical cameras, to prove the approach out first
-- Custom nylon airframe designed in Fusion 360, manufactured and sponsored by PCBWay
+- Prototyped the stereo pipeline in Unity before buying the physical cameras, to prove the approach first
+- Nylon airframe designed in Fusion 360, manufactured by PCBWay
 
-**Status:** 10 seconds of controlled flight demonstrated so far. Altitude hold is functional and being tuned.
+**Status:** Manual test flights completed. Currently tuning altitude and position hold.
 
 <a href="https://github.com/hannesgook/kattvis"><img src="https://img.shields.io/badge/View_repo-KattVis-181717?style=for-the-badge&logo=github" /></a>
 
 ---
 
-### PidraQRL &nbsp; <sub>2025 to 2026</sub>
+### PidraQRL &nbsp; <sub>2025 to 2026 · team project · 🏆 YSEA award</sub>
 
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Unity_HDRP-000000?style=flat-square&logo=unity&logoColor=white" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white" /> <img src="https://img.shields.io/badge/LoRa-1C8B8B?style=flat-square" />
 
-A quadrotor built entirely from scratch with a **live SAC reinforcement learning agent** tuning roll-controller gains in real time, and a Unity HDRP digital twin mirroring live telemetry.
+A quadrotor built from scratch with a **live SAC reinforcement learning agent** tuning its roll-controller gains in real time, and a Unity HDRP digital twin mirroring live telemetry.
 
 <table>
   <tr>
@@ -70,11 +74,12 @@ A quadrotor built entirely from scratch with a **live SAC reinforcement learning
 
 - Custom ESP32 flight controller with cascaded PID, Madgwick AHRS, and biquad filters (250 Hz loop)
 - Full wireless chain: `Flutter app → BLE → Raspberry Pi → LoRa → ESP32` (+ direct BLE for RL)
-- SAC RL agent tuning PID gains in real time on the physical drone, **no sim-to-real transfer**
+- SAC RL agent (PyTorch) tuning PID gains in real time on the physical drone, **no sim-to-real transfer**
 - Custom single-axis test rig for safe RL training with live propellers
 - Unity HDRP digital twin with Fusion 360 models, mirroring live IMU telemetry over UDP
+- 3D-printed chassis designed in Fusion 360
 
-Winner of the YSEA Most Outstanding STEM Exhibit at the Unga Forskare 2026 National Final.
+<!-- TODO: add one line on your own role in the team, e.g. "My role: ..." -->
 
 <details>
 <summary><b>What the jury said</b></summary>
@@ -128,21 +133,35 @@ Generates a **playable Geometry Dash level from any song** using beat detection 
 
 ---
 
-## Work Experience
+## More projects
 
-**Software Developer, CPAC Systems** · 2021 to 2025 (recurring)
-
-Five paid internships starting at age 15 across four years, building internal tools and simulators in C#, Python, and Unity.
-
-- Optimized a Unity simulator, **doubling frame rate**
-- Built a Python diagnostics tool adopted by senior engineers for root cause analysis
-- Built a license management service (HTML, CSS, JS)
-- Developed machine simulations with custom mesh generation in Unity
-- Refactored Perl codebases and worked on a web application (HTML, SCSS, TypeScript)
+| Project | What it is | Link |
+|---|---|---|
+| **TramRush** <br/><sub>🏆 "Most Potential" award, IT Master Game Jam, Chalmers 2026</sub> | 3-day jam, team of 3, theme "Gothenburg": drive a tram balanced on a single rail through a procedurally generated Gothenburg. **My role:** the map pipeline. It imports OpenStreetMap data (Overpass → GeoJSON) and builds the city in 3D in Unity, with real shops on buildings, tram stops from the data, and terrain from a Gothenburg heightmap. | [Repo](https://github.com/hannesgook/game-jam-chalmers-26) |
+| **Gothenburg Flood Simulator** <br/><sub>Lovable Buildathon, Chalmers 2026</sub> | 3D web app, built in 2 hours, showing how sea-level rise could affect Gothenburg. Pick a year and a scenario to see the water reach buildings. It combines Lantmäteriet 1 m terrain data, OpenStreetMap buildings, and SMHI water-level projections. | [Live demo](https://flood-sim.lovable.app/) |
 
 ---
 
-## Tech Stack
+## Work experience
+
+**Software Developer, CPAC Systems** · 2021 to 2025 (recurring)
+
+Five paid internships over four years, starting at age 15, building internal tools and simulators in C#, Python, and Unity.
+
+- Optimized a Unity machine simulator, **doubling frame rate**
+- Built a Python diagnostics tool adopted by senior engineers for root-cause analysis
+- Developed machine simulations with custom mesh generation in Unity
+- Built a license management service (HTML, CSS, JS)
+- Refactored a Perl codebase and contributed to a web application (HTML, SCSS, TypeScript)
+
+## Education
+
+- **MSc in Engineering, Computer Science and Engineering** (Civilingenjör Datateknik), Chalmers University of Technology · 2026 to present
+- **Upper secondary, Technology & Science**, Hulebäcksgymnasiet, Mölnlycke · 2023 to 2026
+
+---
+
+## Tech stack
 
 <div align="center">
 
@@ -156,9 +175,10 @@ Five paid internships starting at age 15 across four years, building internal to
 
 | Area | Skills |
 |---|---|
-| **Embedded systems** | C++, Arduino, PID control, IMU data filtering and handling, Fusion 360 |
-| **Simulation & Graphics** | Unity, C#, procedural generation (noise combining), Blender |
-| **Computer Vision** | OpenCV, stereo vision, visual odometry, feature tracking, camera calibration |
-| **App** | Flutter (Dart), React, Python |
-| **AI** | Reinforcement learning, YOLO, Torch, dataset generation |
-| **Languages** | Swedish (native), English (fluent), French (basic) |
+| **Languages** | Python, C++, C#, Dart, TypeScript, HTML/CSS, Perl |
+| **Embedded systems** | ESP32, Arduino, real-time PID control, Madgwick AHRS / IMU filtering, MCPWM, BLE, LoRa |
+| **Computer vision** | OpenCV, stereo vision, visual odometry, feature tracking, camera calibration |
+| **AI / ML** | PyTorch, reinforcement learning (SAC), YOLO, synthetic data generation, local LLM inference, RAG (foundational) |
+| **Simulation & graphics** | Unity (HDRP), procedural generation, Blender, Fusion 360 |
+| **Apps & web** | Flutter, React |
+| **Human languages** | Swedish (native), English (fluent), French (basic) |
