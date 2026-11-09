@@ -165,7 +165,7 @@ Five paid internships over four years, starting at age 15, building internal too
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,arduino,raspberrypi,python,cs,unity,blender&perline=7" />
+<img src="https://skillicons.dev/icons?i=cpp,arduino,raspberrypi,python,cs,unity,unreal,blender&perline=8" />
 <br/>
 <img src="https://skillicons.dev/icons?i=opencv,pytorch,flutter,dart,react,ts,linux,git&perline=8" />
 
