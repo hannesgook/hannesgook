@@ -47,7 +47,7 @@ FONT_MONO = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberati
 
 BLINK_SECONDS = 1.06        # terminal cursor blink period
 STATS_PITCH = 7.0           # dot size on the separate stats card (main panel uses 8)
-STATS_IN_DASHBOARD = True   # draw the all time / this week / today row at the bottom of the dashboard
+STATS_IN_DASHBOARD = True   # draw the all time / this week row at the bottom of the dashboard
 STATS_ROW_PITCH = 5.0       # dot size of that row: clearly secondary to the big total
 BAR_HEIGHT = 38             # height of the weekly bars, px
 
@@ -756,12 +756,11 @@ def render(S, palette=None, theme="dark", motion=None, total=None, stats=None):
 
 
 def stats_row(S, L, R, top, pitch):
-    """All-time, this-week and today counts in three equal columns.
+    """All-time and this-week counts in equal columns.
     Returns (markup, caption baseline y, plain-text summary)."""
     cap_y = top + 7 * pitch + 20
     readouts = [("contributions all time", S["all_time"]),
-                ("contributions this week", S["weekly"][-1]),
-                ("contributions today", S["flat"][-1][1])]
+                ("contributions this week", S["weekly"][-1])]
     col = (R - L) / len(readouts)
     o = []
     for k, (lab, num) in enumerate(readouts):
@@ -776,7 +775,7 @@ def stats_row(S, L, R, top, pitch):
 
 
 def render_stats(S, palette=None, theme="dark"):
-    """Separate card with the same three counts (not used when STATS_IN_DASHBOARD is on)."""
+    """Separate card with the same counts (not used when STATS_IN_DASHBOARD is on)."""
     P = PALETTES[palette or PALETTE][theme]
     row, cap_y, summary = stats_row(S, PAD, WIDTH - PAD, 28, STATS_PITCH)
     H = round(cap_y + 24)

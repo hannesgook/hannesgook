@@ -23,7 +23,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="out/dashboard-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="out/dashboard-light.svg">
-  <img alt="Contributions in the past year, current streak, weekly activity, and all-time, this-week and today counts" src="out/dashboard-dark.svg" width="100%">
+  <img alt="Contributions in the past year, current streak, weekly activity, and all-time and this-week counts" src="out/dashboard-dark.svg" width="100%">
 </picture>
 
 ---
