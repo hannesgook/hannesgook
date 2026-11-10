@@ -78,8 +78,6 @@ A quadrotor built from scratch with a **live SAC reinforcement learning agent** 
 - Custom single-axis test rig for safe RL training with live propellers, plus a 3D-printed chassis designed in Fusion 360
 - Unity HDRP digital twin with Fusion 360 models, mirroring live IMU telemetry over UDP
 
-<!-- TODO: add one line on your own role in the team, e.g. "My role: ..." -->
-
 <details>
 <summary><b>What the jury said</b></summary>
 <br/>
@@ -167,10 +165,10 @@ Five paid internships over four years, starting at age 15, building internal too
 
 | Area | Skills |
 |---|---|
-| **Languages** | Python, C++, C#, Dart, TypeScript, HTML/CSS, Perl |
+| **Languages** | Python, C++, C#, Dart, TypeScript, HTML/CSS |
 | **Embedded systems** | ESP32, Arduino, real-time PID control, Madgwick AHRS / IMU filtering, MCPWM, BLE, LoRa |
 | **Computer vision** | OpenCV, stereo vision, visual odometry, feature tracking, camera calibration |
 | **AI / ML** | PyTorch, reinforcement learning (SAC), YOLO, synthetic data generation, local LLM inference, RAG (foundational) |
-| **Simulation & graphics** | Unreal Engine, Unity (HDRP), procedural generation, Blender, Fusion 360 |
+| **Simulation & graphics** | Unreal Engine, Unity (HDRP), procedural generation, dual contouring, marching cubes, perlin noise, Blender, Fusion 360 |
 | **Apps & web** | Flutter, React |
 | **Human languages** | Swedish (native), English (fluent), French (basic) |
