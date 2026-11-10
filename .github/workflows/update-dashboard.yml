@@ -1,0 +1,53 @@
+name: Update contribution dashboard
+
+# Rebuilds the SVGs from live GitHub data and commits them only when they changed.
+# Copy this file and generate.py into the profile repo (hannesgook/hannesgook).
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours, off the top of the hour (GitHub may delay scheduled runs)
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_USER: hannesgook     # whose contributions to draw
+      OUT_DIR: out            # where the SVGs live in the repo; match the paths in README.md
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVGs
+        env:
+          # DASHBOARD_TOKEN (optional repo secret): a fine-grained token with access to your
+          # private repos, so private commits are counted. Without it, the built-in token is
+          # used, which only sees public data.
+          GITHUB_TOKEN: ${{ secrets.DASHBOARD_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python generate.py --user "$GH_USER" --out "$OUT_DIR"
+
+      - name: Commit if changed
+        run: |
+          git add -- "$OUT_DIR/dashboard-dark.svg" "$OUT_DIR/dashboard-light.svg" \
+                     "$OUT_DIR/stats-dark.svg" "$OUT_DIR/stats-light.svg" \
+                     "$OUT_DIR/header-dark.svg" "$OUT_DIR/header-light.svg" "$OUT_DIR/hero.svg" \
+                     "$OUT_DIR"/award-*.svg "$OUT_DIR"/divider-*.svg
+          if git diff --cached --quiet; then
+            echo "Dashboard unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update contribution dashboard"
+          git push
