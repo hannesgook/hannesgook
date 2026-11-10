@@ -30,7 +30,7 @@
 
 I build end-to-end **real-time control and machine-learning systems** across custom hardware and software: embedded firmware, wireless communication, computer vision, and reinforcement learning. I've been programming for 7+ years, and professionally since 2021, when I started my first internship at 15.
 
-**Right now:** starting my MSc at Chalmers, and tuning altitude and position hold on [**KattVis**](https://github.com/hannesgook/kattvis), a GPS-free stereo-vision quadcopter.
+**Right now:** Studying at Chalmers, building in Unreal Engine and tuning altitude and position hold on [**KattVis**](https://github.com/hannesgook/kattvis), a GPS-free stereo-vision quadcopter.
 
 ## Featured projects
 
