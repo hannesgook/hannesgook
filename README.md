@@ -169,6 +169,7 @@ Five paid internships over four years, starting at age 15, building internal too
 | **Embedded systems** | ESP32, Arduino, real-time PID control, Madgwick AHRS / IMU filtering, MCPWM, BLE, LoRa |
 | **Computer vision** | OpenCV, stereo vision, visual odometry, feature tracking, camera calibration |
 | **AI / ML** | PyTorch, reinforcement learning (SAC), YOLO, synthetic data generation, local LLM inference, RAG (foundational) |
-| **Simulation & graphics** | Unreal Engine, Unity (HDRP), procedural generation, dual contouring, marching cubes, perlin noise, Blender, Fusion 360 |
+| **Simulation & graphics** | Unreal Engine, Unity (HDRP), procedural generation, dual contouring, marching cubes, perlin noise, Blender |
+| **CAD & aero design** | Fusion 360, OpenVSP |
 | **Apps & web** | Flutter, React |
 | **Human languages** | Swedish (native), English (fluent), French (basic) |
