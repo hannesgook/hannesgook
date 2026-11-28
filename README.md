@@ -34,11 +34,13 @@ I build end-to-end **real-time control and machine-learning systems** across cus
 
 ## Featured projects
 
-### KattVis &nbsp; <sub>2026 to present · sponsored by PCBWay</sub>
+### KattVis &nbsp; <sub>2026 to present · solo project · sponsored by PCBWay</sub>
 
 **Stack:** ESP32, Raspberry Pi 5, OpenCV, Flutter, Unity, Fusion 360
 
 A stereo-vision quadcopter that estimates its 3D position and motion **without GPS or a barometer**, using two onboard cameras and an IMU.
+
+**Solo build, end to end:** airframe CAD, electronics, flight firmware, vision pipeline, and ground-station app.
 
 <table>
   <tr>
@@ -48,7 +50,7 @@ A stereo-vision quadcopter that estimates its 3D position and motion **without G
 </table>
 
 - Custom ESP32 flight controller with a cascaded PID loop at **250 Hz**, running independently of the vision workload
-- Deadcat nylon airframe designed in Fusion 360, with a tuned front/rear roll-mix to compensate for the front motors' extra torque leverage
+- Deadcat airframe designed entirely in Fusion 360 and 3D-printed in nylon by PCBWay, with a tuned front/rear roll-mix to compensate for the front motors' extra torque leverage
 - Raspberry Pi 5 running an onboard stereo-vision and visual-odometry pipeline (dual OV9281 global-shutter cameras, 12 cm baseline)
 - Custom Flutter ground station with the CAD-modeled airframe rendered live, PID tuning, a per-motor test mode, and built-in stereo calibration
 - Prototyped the stereo pipeline in Unity before buying the physical cameras, to prove the approach first
