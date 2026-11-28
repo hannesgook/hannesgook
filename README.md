@@ -43,7 +43,7 @@ A stereo-vision quadcopter that estimates its 3D position and motion **without G
 <table>
   <tr>
     <td width="50%"><img src="https://raw.githubusercontent.com/hannesgook/kattvis/main/docs/drone_hero.jpg" alt="KattVis drone"/></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/hannesgook/kattvis/main/docs/flight_mode.jpg" alt="Flutter ground station"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/hannesgook/kattvis/main/docs/left_camera_selected.jpg" alt="Flutter ground station"/></td>
   </tr>
 </table>
 
